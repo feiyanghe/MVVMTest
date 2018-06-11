@@ -28,6 +28,7 @@
             [weakSelf.tableView reloadData];
         }
     };
+    NSLog(@"使用sourcetress管理APP项目源文件");
 }
 #pragma mark - tableView delegate and dataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
