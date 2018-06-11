@@ -64,6 +64,14 @@
 {
     return 80.0;
 }
+- (NSString *)titleForHeaderInSection:(NSInteger)section
+{
+    return @"";
+}
+- (NSString *)titleForFooterInSection:(NSInteger)section
+{
+    return @"";
+}
 - (MVVMCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
     MVVMCell *cell = [MVVMCell cellWithTableView:tableView];
