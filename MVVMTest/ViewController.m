@@ -29,6 +29,7 @@
         }
     };
     NSLog(@"使用sourcetress管理APP项目源文件");
+    //mvvm好处是解决了视图控制器胖模型问题，简化了控制器业务逻辑
 }
 #pragma mark - tableView delegate and dataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
